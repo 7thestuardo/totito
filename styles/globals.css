@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .grid-custom {
+    grid-template-columns: repeat(3, minmax(0, max-content));
+  }
+
+}
+
+.ganadores {
+  @apply rounded-md text-8xl sm:text-9xl bg-red-400 h-28 w-28 sm:h-40 sm:w-40;
+}
